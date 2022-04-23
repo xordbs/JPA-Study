@@ -1,4 +1,4 @@
-package com.xordbs.study1;
+package com.xordbs.study1.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

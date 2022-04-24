@@ -1,6 +1,6 @@
 package com.xordbs.study1.repository;
 
-import com.xordbs.study1.Member;
+import com.xordbs.study1.domain.Member;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -17,8 +17,8 @@ public class MemberRepository {
     }
 
     public Member find(Long id){
+
         return em.find(Member.class, id);
     }
-
 
 }
